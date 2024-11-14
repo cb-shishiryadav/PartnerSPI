@@ -1,9 +1,14 @@
-Unauthorise stoplight
-
 apiDefinitions:
-  v1: TaxRegistrationValidation.yaml
-  v2: openapi_tax_versions.yaml
+  v1: ./TaxRegistrationValidation.yaml
+  v2: ./openapi_tax_versions.yaml
 
 lint:
   rules:
     operation-operationId-unique: off
+
+referenceDocs:
+  versions:
+    v1:
+      spec: TaxRegistrationValidation.yaml
+      label: "Version 1"
+      isDeprecated: true # optional, set true to mark as deprecated
