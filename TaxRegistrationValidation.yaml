@@ -38,7 +38,7 @@ info:
     \     \"id\": \"client_secret\",\n              \"name\": \"Client Secret\",\n\
     \              \"type\": \"text\",\n              \"is_sensitive\": true\n   \
     \         }\n          ]\n        }\n   ```\n"
-  title: Tax Registration Number Validation Service Adapter SPI
+  title: Tax Registration Number Validation SPI
   version: 0.0.1
 servers:
 - description: Production SPI server.

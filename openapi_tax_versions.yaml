@@ -41,7 +41,7 @@ info:
     \              \"type\": \"text\",\n              \"is_sensitive\": true\n   \
     \         }\n          ]\n        }\n   ```    \n`\"Authorization\":\"{\"<authorization_key>\"\
     :\"test_GykCvTykZFTBqHQAFzjMN9R1Thgdho0Q\"}\"`\n"
-  title: Taxes Service Adapter SPI
+  title: Tax SPI
   version: 0.3.7
 servers:
 - description: Production SPI server.
