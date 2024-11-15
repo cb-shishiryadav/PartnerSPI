@@ -3,8 +3,7 @@ Chargebee uses HTTP header-based authorization for all the API endpoints associa
 
 Following are the JSON snippets for your reference.
 
-`
-"api_configuration": {
+`"api_configuration": {
        "api_base_url": "https://xyz.abc.com/chargebee",
        "credential_configuration": [ 
          {
