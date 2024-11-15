@@ -1,0 +1,57 @@
+organization: Chargebee
+apis:
+  # API name as it will appear in the documentation
+  your-api-name@v1.0:
+    # Path to your OpenAPI definition
+    root: ./openapi/openapi.yaml
+
+extends:
+  - recommended
+
+# Custom sorting/organization of pages
+pages:
+  - page: Overview.md
+    label: Overview
+  - page: Authorization.md
+    label: Authorization
+  - group: Guides
+    pages:
+      - page: guides/authentication.md
+        label: Authentication Guide
+      - page: guides/pagination.md
+        label: Pagination Guide
+      - page: guides/errors.md
+        label: Error Handling
+  - group: API Reference
+    pages:
+      - page: api/users.md
+        label: Users
+      - page: api/products.md
+        label: Products
+      - page: api/orders.md
+        label: Orders
+  - page: changelog.md
+    label: Changelog
+
+# Theme customization
+theme:
+  # Light and dark mode colors
+  lightColors:
+    primary: '#32329f'
+  darkColors:
+    primary: '#32329f'
+
+  
+# Analytics configuration (optional)
+analytics:
+  ga:
+    trackingId: 'UA-XXXXXXXXX-X'
+
+
+# Features toggle
+
+# SEO settings
+seo:
+  title: Your API Documentation
+  description: Comprehensive documentation for your API
+  keywords: api, documentation, developer
